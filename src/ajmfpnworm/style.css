@@ -1,0 +1,70 @@
+.label{
+    -fx-text-fill: white;
+    -fx-font-weight: normal;
+}
+
+.button{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-radius: 20;
+    -fx-border-color: white;
+    -fx-alignment: center ;
+}
+
+.button:hover{
+    -fx-font-weight: bold;
+    -fx-border-color: blue;
+    -fx-border-radius: 30;
+    -fx-alignment: center ;
+}
+
+.split-menu-button {
+    -fx-inner-border: transparent;
+    -fx-body-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: transparent;
+    -fx-body-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-radius: 20;
+    -fx-border-color: white;
+    -fx-alignment: center ;
+    -fx-font-weight: normal;
+}
+.split-menu-button > .label{
+    -fx-text-fill: white;
+    -fx-font-weight: normal;
+}
+
+.split-menu-button >.label:hover{
+    -fx-font-weight: bold;
+    -fx-alignment: center ;
+}
+
+
+.split-menu-button:hover{
+    -fx-font-weight: bold;
+    -fx-border-color: blue;
+    -fx-border-radius: 30;
+    -fx-alignment: center ;
+}
+
+.context-menu {
+    -fx-background-color: black;
+    -fx-body-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-radius: 20;
+    -fx-border-color: transparent;
+    -fx-alignment: center ;
+}
+
+.menu-item{
+     -fx-background-color: transparent;
+     -fx-text-fill: white;
+}
+
+.menu-item:hover{
+    fx-font-weight: bold;
+    -fx-border-color: blue;
+    -fx-border-radius: 30;
+    -fx-alignment: center ;
+}

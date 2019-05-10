@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="mainPane" prefHeight="400.0" prefWidth="590.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ajmfpnworm.MainMenuDocumentController">
+   <children>
+      <Label fx:id="sub" layoutX="214.0" layoutY="192.0" text="Andrew Murphy - CS3330 - Final" textFill="WHITE" />
+      <Label fx:id="title" layoutX="163.0" layoutY="85.0" text="WORM" textFill="WHITE">
+         <font>
+            <Font name="Sitka Display" size="96.0" />
+         </font>
+      </Label>
+      <SplitMenuButton fx:id="play" layoutX="268.0" layoutY="219.0" mnemonicParsing="false" onAction="#handlePlay" text="Play!" textFill="WHITE" />
+      <Button fx:id="choose" layoutX="235.0" layoutY="256.0" mnemonicParsing="false" onAction="#handleChoose" text="Choose Worm Image" textAlignment="CENTER" textFill="RED" />
+      <Button fx:id="about" layoutX="275.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleAbout" text="About" textFill="#3b8a3a" />
+      <Label fx:id="aboutLabel" alignment="CENTER" layoutX="96.0" layoutY="83.0" prefHeight="200.0" prefWidth="424.0" text="HELLLO" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

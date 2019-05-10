@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="wormPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handleOnKeyPressed" prefHeight="400.0" prefWidth="590.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ajmfpnworm.FXMLDocumentController">
+   <children>
+      <Label layoutX="248.0" layoutY="13.0" text="WORM" textFill="WHITE">
+         <font>
+            <Font name="Sitka Display" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="188.0" layoutY="23.0" text="SCORE:     " textFill="WHITE">
+         <font>
+            <Font name="Trebuchet MS" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="367.0" layoutY="23.0" text="HIGHSCORE:" textFill="WHITE">
+         <font>
+            <Font name="Trebuchet MS" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreLabel" layoutX="198.0" layoutY="41.0" text="000000" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Trebuchet MS" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="highscore" layoutX="382.0" layoutY="41.0" text="000000" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Trebuchet MS" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="restart" layoutX="142.0" layoutY="126.0" prefHeight="119.0" prefWidth="355.0" text="Press (R) to restart." textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
